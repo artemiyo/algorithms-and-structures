@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df08a18f-56b4-443b-bcea-aa8a23a5cce0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/recursive/flatten.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursive/isPalindrome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursive/reverse.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27HN9PrsYLhxmWSBuCcA1f6QEr6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leetcode/twoPointers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.countUniqueValues.js">
+    <configuration name="countUniqueValues.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/frequencyPattern/countUniqueValues.js" working-dir="$PROJECT_DIR$/frequencyPattern">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/dataStructures/singly-linked-list/index.js" working-dir="$PROJECT_DIR$/dataStructures/singly-linked-list">
+      <method v="2" />
+    </configuration>
+    <configuration name="searchLinear.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/searchingAlgorithms/searchLinear.js" working-dir="$PROJECT_DIR$/searchingAlgorithms">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.countUniqueValues.js" />
+        <item itemvalue="Node.js.searchLinear.js" />
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df08a18f-56b4-443b-bcea-aa8a23a5cce0" name="Changes" comment="" />
+      <created>1648972900658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648972900658</updated>
+      <workItem from="1648972902501" duration="1577000" />
+      <workItem from="1649360429836" duration="3176000" />
+      <workItem from="1649517389090" duration="2000" />
+      <workItem from="1649518248643" duration="7575000" />
+      <workItem from="1649704102849" duration="4682000" />
+      <workItem from="1650197319202" duration="12629000" />
+      <workItem from="1650397533392" duration="2092000" />
+      <workItem from="1650401012153" duration="106000" />
+      <workItem from="1650471869698" duration="3597000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
