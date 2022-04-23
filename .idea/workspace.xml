@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df08a18f-56b4-443b-bcea-aa8a23a5cce0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/recursive/flatten.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursive/isPalindrome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursive/reverse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchingAlgorithms/binarySearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/searchingAlgorithms/binarySearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/bubleSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/bubleSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/selectionSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/selectionSort.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +32,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/leetcode/twoPointers" />

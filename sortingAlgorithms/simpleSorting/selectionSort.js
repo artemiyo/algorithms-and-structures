@@ -8,6 +8,8 @@
 // 4. If the "minimum" is not the value (index) you initially began with, swap the two values
 // 5. Repeat this with the next element until the array is sorted.
 
+// Time Complexity - O(n^2)
+
 // LEGACY VERSION (non ES2015 syntax)
 function sselectionSort(arr) {
   for (var i = 0; i < arr.length; i++) {

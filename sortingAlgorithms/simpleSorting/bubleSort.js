@@ -1,7 +1,9 @@
 // A sorting algorithm where the largest values bubble up to the top
 
+// Time Complexity - O(n^2) || O(n) - if array is nearly sorted
+
 // Optimized BubbleSort with noSwaps
-// noSwaps usually used with nearly sorted data
+// noSwaps usually used with nearly sorted data (important!!!)
 function bubbleSort(arr) {
   var noSwaps;
   for (var i = arr.length; i > 0; i--) {
