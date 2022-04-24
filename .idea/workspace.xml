@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df08a18f-56b4-443b-bcea-aa8a23a5cce0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/searchingAlgorithms/binarySearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/searchingAlgorithms/binarySearch.js" afterDir="false" />
+    <list default="true" id="df08a18f-56b4-443b-bcea-aa8a23a5cce0" name="Changes" comment="add binary search strings example">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/intermediateSortingAlg/mergeSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sortingAlgorithms/intermediateSortingAlg/mergeSort.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/bubleSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/bubleSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/insertionSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/insertionSort.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/selectionSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/selectionSort.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,13 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/leetcode/twoPointers" />
@@ -79,7 +84,17 @@
       <workItem from="1650397533392" duration="2092000" />
       <workItem from="1650401012153" duration="106000" />
       <workItem from="1650471869698" duration="3597000" />
+      <workItem from="1650788852152" duration="4098000" />
+      <workItem from="1650806366804" duration="3723000" />
     </task>
+    <task id="LOCAL-00001" summary="add binary search strings example">
+      <created>1650710701959</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650710701959</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,5 +110,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add binary search strings example" />
+    <option name="LAST_COMMIT_MESSAGE" value="add binary search strings example" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

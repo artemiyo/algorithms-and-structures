@@ -1,6 +1,7 @@
 // A sorting algorithm where the largest values bubble up to the top
 
-// Time Complexity - O(n^2) || O(n) - if array is nearly sorted
+// Time Complexity - O(n^2) or O(n) - if array is nearly sorted
+// Space Complexity - O(1)
 
 // Optimized BubbleSort with noSwaps
 // noSwaps usually used with nearly sorted data (important!!!)

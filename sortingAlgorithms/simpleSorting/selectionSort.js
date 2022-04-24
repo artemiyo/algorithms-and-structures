@@ -9,9 +9,10 @@
 // 5. Repeat this with the next element until the array is sorted.
 
 // Time Complexity - O(n^2)
+// Space Complexity - O(1)
 
 // LEGACY VERSION (non ES2015 syntax)
-function sselectionSort(arr) {
+function selectionSort(arr) {
   for (var i = 0; i < arr.length; i++) {
     var lowest = i;
     for (var j = i + 1; j < arr.length; j++) {

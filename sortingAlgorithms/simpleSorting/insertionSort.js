@@ -8,9 +8,14 @@
 
 // Data has to be nearly sorted for better performance
 
-function insertonSort(arr) {
-  for (var i = 1; i < arr.length; i++) {
-    var currentVal = arr[i];
+// Time Complexity - O(n^2) or O(n) - if array is nearly sorted
+// Space Complexity - O(1)
+
+// Useful when we try to add something new to the array constantly
+
+function insertionSort(arr) {
+  for (let i = 1; i < arr.length; i++) {
+    let currentVal = arr[i];
     for (var j = i - 1; j >= 0 && arr[j] > currentVal; j--) {
         arr[j + 1] = arr[j]
     }
@@ -20,4 +25,23 @@ function insertonSort(arr) {
   return arr;
 }
 
-insertonSort([2, 1, 9, 76, 4]);
+
+// while loop version
+function insertionSort(arr) {
+  for(let i = 1; i < arr.length; i++) {
+    let currentValue = arr[i];
+    let j = i - 1;
+
+    while((j > -1) && (currentValue < arr[j])) {
+      arr[j + 1] = arr[j];
+      j--;
+    }
+    arr[j + 1] = currentValue
+  }
+
+  return arr
+
+}
+
+
+console.log(insertionSort([2, 1, 9, 76, 4]));
