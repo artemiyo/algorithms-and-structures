@@ -3,58 +3,20 @@
 // Time Complexity - O(nlogN)
 // Space Complexity - O(logN)
 
-// First Version
-function pivot(arr, start = 0, end = arr.length + 1) {
-  function swap(array, i, j) {
-    var temp = array[i];
-    array[i] = array[j];
-    array[j] = temp;
-  }
 
-  var pivot = arr[start];
-  var swapIdx = start;
+function quickSort(arr) {
 
-  for (var i = start + 1; i < arr.length; i++) {
-    if (pivot > arr[i]) {
-      swapIdx++;
-      swap(arr, swapIdx, i);
+    if (arr.length <= 1) return arr;
+
+    const pivot = arr[arr.length - 1];
+    const left = [];
+    const right = [];
+
+    for (const el of arr.slice(0, arr.length - 1)) {
+        el < pivot ? left.push(el) : right.push(el)
     }
-  }
-  swap(arr, start, swapIdx);
-  return swapIdx;
+
+    return [...quickSort(left), pivot, ...quickSort(right)]
 }
 
-// Version with ES2015 Syntax
-function pivot(arr, start = 0, end = arr.length - 1) {
-  const swap = (arr, idx1, idx2) => {
-    [arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]];
-  };
-
-  // We are assuming the pivot is always the first element
-  let pivot = arr[start];
-  let swapIdx = start;
-
-  for (let i = start + 1; i <= end; i++) {
-    if (pivot > arr[i]) {
-      swapIdx++;
-      swap(arr, swapIdx, i);
-    }
-  }
-
-  // Swap the pivot from the start the swapPoint
-  swap(arr, start, swapIdx);
-  return swapIdx;
-}
-
-function quickSort(arr, left = 0, right = arr.length - 1) {
-  if (left < right) {
-    let pivotIndex = pivot(arr, left, right);
-    //left
-    quickSort(arr, left, pivotIndex - 1);
-    //right
-    quickSort(arr, pivotIndex + 1, right);
-  }
-  return arr;
-}
-
-pivot([4, 8, 2, 1, 5, 7, 6, 3]);
+console.log(quickSort([1, 4, 2, 8, 345, 123, 43, 32, 5643, 63, 123, 43, 2, 55, 1, 234, 92]))
