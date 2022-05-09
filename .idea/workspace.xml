@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df08a18f-56b4-443b-bcea-aa8a23a5cce0" name="Changes" comment="add binary search strings example">
+    <list default="true" id="df08a18f-56b4-443b-bcea-aa8a23a5cce0" name="Changes" comment="change quickSort algo to a more simplified version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/intermediateSortingAlg/mergeSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sortingAlgorithms/intermediateSortingAlg/mergeSort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/bubleSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/bubleSort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/insertionSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/insertionSort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/selectionSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/selectionSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructures/doubly-linked-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/doubly-linked-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructures/singly-linked-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/singly-linked-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frequencyPattern/countUniqueValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/frequencyPattern/countUniqueValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frequencyPattern/frequencyAnagram.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/frequencyPattern/frequencyAnagram.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frequencyPattern/frequencyCounterPattern.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/frequencyPattern/frequencyCounterPattern.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frequencyPattern/multiplePointersPattern.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/frequencyPattern/multiplePointersPattern.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frequencyPattern/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/frequencyPattern/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frequencyPattern/slidingPattern.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/frequencyPattern/slidingPattern.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frequencyPattern/solutions.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/frequencyPattern/solutions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursive/factorial.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/recursive/factorial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursive/flatten.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/recursive/flatten.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursive/helperMethodRecursion.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/recursive/helperMethodRecursion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursive/isPalindrome.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/recursive/isPalindrome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursive/pureRecursion.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/recursive/pureRecursion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursive/reqursionSolutions.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/recursive/reqursionSolutions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursive/reverse.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/recursive/reverse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursive/sumRange.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/recursive/sumRange.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchingAlgorithms/binarySearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/searchingAlgorithms/binarySearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchingAlgorithms/searchLinear.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/searchingAlgorithms/searchLinear.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/intermediateSortingAlg/mergeSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/sortingAlgorithms/intermediateSortingAlg/mergeSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/intermediateSortingAlg/quickSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/sortingAlgorithms/intermediateSortingAlg/quickSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/intermediateSortingAlg/radixSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/sortingAlgorithms/intermediateSortingAlg/radixSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/bubleSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/sortingAlgorithms/simpleSorting/bubleSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/insertionSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/sortingAlgorithms/simpleSorting/insertionSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/selectionSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/sortingAlgorithms/simpleSorting/selectionSort.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,29 +55,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Algoritms" />
       <recent name="$PROJECT_DIR$/leetcode/twoPointers" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.countUniqueValues.js">
-    <configuration name="countUniqueValues.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/frequencyPattern/countUniqueValues.js" working-dir="$PROJECT_DIR$/frequencyPattern">
+    <configuration name="countUniqueValues.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Algorithms/frequencyPattern/countUniqueValues.js" working-dir="$PROJECT_DIR$/Algorithms/frequencyPattern">
       <method v="2" />
     </configuration>
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/dataStructures/singly-linked-list/index.js" working-dir="$PROJECT_DIR$/dataStructures/singly-linked-list">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Data Structures/singly-linked-list/index.js" working-dir="$PROJECT_DIR$/Data Structures/singly-linked-list">
       <method v="2" />
     </configuration>
-    <configuration name="searchLinear.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/searchingAlgorithms/searchLinear.js" working-dir="$PROJECT_DIR$/searchingAlgorithms">
+    <configuration name="searchLinear.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Algorithms/searchingAlgorithms/searchLinear.js" working-dir="$PROJECT_DIR$/Algorithms/searchingAlgorithms">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -85,7 +107,14 @@
       <workItem from="1650401012153" duration="106000" />
       <workItem from="1650471869698" duration="3597000" />
       <workItem from="1650788852152" duration="4098000" />
-      <workItem from="1650806366804" duration="3723000" />
+      <workItem from="1650806366804" duration="3789000" />
+      <workItem from="1651080468165" duration="4341000" />
+      <workItem from="1651259907166" duration="2346000" />
+      <workItem from="1651328027702" duration="16355000" />
+      <workItem from="1651504320707" duration="10208000" />
+      <workItem from="1651578563950" duration="840000" />
+      <workItem from="1651949552598" duration="300000" />
+      <workItem from="1652089276593" duration="9059000" />
     </task>
     <task id="LOCAL-00001" summary="add binary search strings example">
       <created>1650710701959</created>
@@ -94,7 +123,28 @@
       <option name="project" value="LOCAL" />
       <updated>1650710701959</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add time complexity information and change merge sorting">
+      <created>1650810858488</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650810858488</updated>
+    </task>
+    <task id="LOCAL-00003" summary="change quickSort algo to a more simplified version">
+      <created>1651084266142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651084266142</updated>
+    </task>
+    <task id="LOCAL-00004" summary="change quickSort algo to a more simplified version">
+      <created>1651230714885</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651230714885</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +163,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add binary search strings example" />
-    <option name="LAST_COMMIT_MESSAGE" value="add binary search strings example" />
+    <MESSAGE value="add time complexity information and change merge sorting" />
+    <MESSAGE value="change quickSort algo to a more simplified version" />
+    <option name="LAST_COMMIT_MESSAGE" value="change quickSort algo to a more simplified version" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
