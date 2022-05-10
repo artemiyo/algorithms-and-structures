@@ -75,6 +75,28 @@ class SinglyLinkedList {
         return this
     }
 
+    get(index) {
+        if(index < 0 || index >= this.length) return null;
+        let counter = 0;
+        let current = this.head;
+
+        while(index !== counter) {
+            current = current.next;
+            counter++;
+        }
+
+        return current
+    }
+
+    set(index, val){
+        let foundNode = this.get(index);
+        if(foundNode){
+            foundNode.val = val;
+            return true;
+        }
+        return false;
+    }
+
 }
 
 const list = new SinglyLinkedList();
@@ -91,3 +113,9 @@ list.push('3');
 
 // unshift
 // list.unshift('4')
+
+// get
+// list.get(1);
+
+//set
+// list.set(1, '55')

@@ -1,33 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df08a18f-56b4-443b-bcea-aa8a23a5cce0" name="Changes" comment="change quickSort algo to a more simplified version">
+    <list default="true" id="df08a18f-56b4-443b-bcea-aa8a23a5cce0" name="Changes" comment="add common methods form single-linked-list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructures/doubly-linked-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/doubly-linked-list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructures/singly-linked-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/singly-linked-list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frequencyPattern/countUniqueValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/frequencyPattern/countUniqueValues.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frequencyPattern/frequencyAnagram.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/frequencyPattern/frequencyAnagram.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frequencyPattern/frequencyCounterPattern.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/frequencyPattern/frequencyCounterPattern.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frequencyPattern/multiplePointersPattern.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/frequencyPattern/multiplePointersPattern.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frequencyPattern/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/frequencyPattern/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frequencyPattern/slidingPattern.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/frequencyPattern/slidingPattern.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frequencyPattern/solutions.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/frequencyPattern/solutions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursive/factorial.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/recursive/factorial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursive/flatten.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/recursive/flatten.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursive/helperMethodRecursion.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/recursive/helperMethodRecursion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursive/isPalindrome.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/recursive/isPalindrome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursive/pureRecursion.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/recursive/pureRecursion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursive/reqursionSolutions.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/recursive/reqursionSolutions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursive/reverse.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/recursive/reverse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursive/sumRange.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/recursive/sumRange.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searchingAlgorithms/binarySearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/searchingAlgorithms/binarySearch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searchingAlgorithms/searchLinear.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/searchingAlgorithms/searchLinear.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/intermediateSortingAlg/mergeSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/sortingAlgorithms/intermediateSortingAlg/mergeSort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/intermediateSortingAlg/quickSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/sortingAlgorithms/intermediateSortingAlg/quickSort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/intermediateSortingAlg/radixSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/sortingAlgorithms/intermediateSortingAlg/radixSort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/bubleSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/sortingAlgorithms/simpleSorting/bubleSort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/insertionSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/sortingAlgorithms/simpleSorting/insertionSort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/simpleSorting/selectionSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/sortingAlgorithms/simpleSorting/selectionSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/singly-linked-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/singly-linked-list/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +90,8 @@
       <workItem from="1651504320707" duration="10208000" />
       <workItem from="1651578563950" duration="840000" />
       <workItem from="1651949552598" duration="300000" />
-      <workItem from="1652089276593" duration="9059000" />
+      <workItem from="1652089276593" duration="9829000" />
+      <workItem from="1652210867077" duration="1601000" />
     </task>
     <task id="LOCAL-00001" summary="add binary search strings example">
       <created>1650710701959</created>
@@ -144,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651230714885</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add common methods form single-linked-list">
+      <created>1652104654824</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652104654824</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +149,8 @@
     <MESSAGE value="add binary search strings example" />
     <MESSAGE value="add time complexity information and change merge sorting" />
     <MESSAGE value="change quickSort algo to a more simplified version" />
-    <option name="LAST_COMMIT_MESSAGE" value="change quickSort algo to a more simplified version" />
+    <MESSAGE value="add common methods form single-linked-list" />
+    <option name="LAST_COMMIT_MESSAGE" value="add common methods form single-linked-list" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
