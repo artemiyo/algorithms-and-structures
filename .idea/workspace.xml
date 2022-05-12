@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df08a18f-56b4-443b-bcea-aa8a23a5cce0" name="Changes" comment="add common methods form single-linked-list">
+    <list default="true" id="df08a18f-56b4-443b-bcea-aa8a23a5cce0" name="Changes" comment="add get/set methods to SLL">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/doubly-linked-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/doubly-linked-list/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data Structures/singly-linked-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/singly-linked-list/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +92,8 @@
       <workItem from="1651578563950" duration="840000" />
       <workItem from="1651949552598" duration="300000" />
       <workItem from="1652089276593" duration="9829000" />
-      <workItem from="1652210867077" duration="1601000" />
+      <workItem from="1652210867077" duration="1674000" />
+      <workItem from="1652379324003" duration="2664000" />
     </task>
     <task id="LOCAL-00001" summary="add binary search strings example">
       <created>1650710701959</created>
@@ -128,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652104654824</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add get/set methods to SLL">
+      <created>1652214115136</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652214115136</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +159,8 @@
     <MESSAGE value="add time complexity information and change merge sorting" />
     <MESSAGE value="change quickSort algo to a more simplified version" />
     <MESSAGE value="add common methods form single-linked-list" />
-    <option name="LAST_COMMIT_MESSAGE" value="add common methods form single-linked-list" />
+    <MESSAGE value="add get/set methods to SLL" />
+    <option name="LAST_COMMIT_MESSAGE" value="add get/set methods to SLL" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
