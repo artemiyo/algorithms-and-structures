@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df08a18f-56b4-443b-bcea-aa8a23a5cce0" name="Changes" comment="add methods to SLL/DLL">
-      <change afterPath="$PROJECT_DIR$/Data Structures/queue/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Structures/stack/index.js" afterDir="false" />
+    <list default="true" id="df08a18f-56b4-443b-bcea-aa8a23a5cce0" name="Changes" comment="add stack/queue data structures">
+      <change afterPath="$PROJECT_DIR$/Data Structures/binary-tree/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/queue/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/queue/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27HN9PrsYLhxmWSBuCcA1f6QEr6" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -60,9 +60,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.countUniqueValues.js" />
         <item itemvalue="Node.js.searchLinear.js" />
         <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.countUniqueValues.js" />
       </list>
     </recent_temporary>
   </component>
@@ -94,7 +94,11 @@
       <workItem from="1652089276593" duration="9829000" />
       <workItem from="1652210867077" duration="1674000" />
       <workItem from="1652379324003" duration="3298000" />
-      <workItem from="1652603086193" duration="4082000" />
+      <workItem from="1652603086193" duration="4296000" />
+      <workItem from="1652610508861" duration="18000" />
+      <workItem from="1652625765752" duration="6902000" />
+      <workItem from="1652815748976" duration="7271000" />
+      <workItem from="1652984146159" duration="3782000" />
     </task>
     <task id="LOCAL-00001" summary="add binary search strings example">
       <created>1650710701959</created>
@@ -145,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652383678300</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add stack/queue data structures">
+      <created>1652610383175</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652610383175</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +180,8 @@
     <MESSAGE value="add common methods form single-linked-list" />
     <MESSAGE value="add get/set methods to SLL" />
     <MESSAGE value="add methods to SLL/DLL" />
-    <option name="LAST_COMMIT_MESSAGE" value="add methods to SLL/DLL" />
+    <MESSAGE value="add stack/queue data structures" />
+    <option name="LAST_COMMIT_MESSAGE" value="add stack/queue data structures" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
