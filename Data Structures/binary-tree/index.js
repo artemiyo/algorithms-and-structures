@@ -48,12 +48,12 @@ class BinarySearchTree {
     }
 
     find(val) {
-        if(!this.root) return true;
+        if (!this.root) return true;
         let current = this.root;
         let found = false;
 
         while (current && !found) {
-            if(val < current.val) {
+            if (val < current.val) {
                 current = current.left
             } else if (val > current.val) {
                 current = current.right
@@ -62,8 +62,69 @@ class BinarySearchTree {
             }
         }
 
-        if(!found) return undefined;
+        if (!found) return undefined;
         return current
+    }
+
+    // Breath First Search
+
+    BFS() {
+        const data = [];
+        const queue = [];
+        let node = this.root;
+        queue.push(node);
+
+        while (queue.length) {
+            node = queue.shift();
+            data.push(node.val);
+
+            if (node.left) queue.push(node.left);
+            if (node.right) queue.push(node.right);
+        }
+
+        return data
+
+    }
+
+    // Depth First Search
+
+    DFSPreOrder() {
+        const data = [];
+
+        function traverse(node) {
+            data.push(node.val);
+            if (node.left) traverse(node.left);
+            if (node.right) traverse(node.right);
+        }
+
+        traverse(this.root);
+        return data;
+    }
+
+    DFSPostOrder() {
+        const data = [];
+
+        function traverse(node) {
+            if (node.left) traverse(node.left);
+            if (node.right) traverse(node.right);
+            data.push(node.val);
+        }
+
+        traverse(this.root);
+        return data;
+    }
+
+    DFSInOrder() {
+        const data = [];
+
+        function traverse(node) {
+            if (node.left) traverse(node.left);
+            data.push(node.val);
+            if (node.right) traverse(node.right);
+        }
+
+        traverse(this.root);
+        return data;
     }
 }
 
@@ -71,5 +132,10 @@ let bst = new BinarySearchTree();
 bst.insert(41);
 bst.insert(62);
 bst.insert(75);
-console.log(bst.find(62))
+
+// console.log(bst.BFS());
+console.log(bst.DFSPreOrder());
+console.log(bst.DFSPostOrder());
+console.log(bst.DFSInOrder());
+
 
